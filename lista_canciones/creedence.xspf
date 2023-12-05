@@ -3,7 +3,7 @@
 	<title>Lista de reproducción</title>
 	<trackList>
 		<track>
-			<location>lista_canciones/canciones/01%20Susie%20Q.mp3</location>
+			<location>/canciones/01%20Susie%20Q.mp3</location>
 			<title>Susie Q</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>

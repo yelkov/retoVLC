@@ -6,6 +6,7 @@ def scrapear_xspf(archivo_xspf):
     assert archivo_xspf.endswith('.xspf'), f"El archivo {archivo_xspf} no tiene la extensión .xspf."
 
     # Ruta al archivo xspf que usaremos para parsear. Necesitamos introducirlo antes como parametro
+    # pero siempre lo va a buscar en la carpeta 'lista_canciones'
     ruta_xspf = os.path.join(os.path.dirname(__file__), '..', 'lista_canciones', archivo_xspf)
     
     # Parsear xspf usando ET y obtenemos raiz, que utilizaremos despues para crear nuestra estructura de datos, que sera una lista
