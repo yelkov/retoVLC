@@ -3,7 +3,7 @@
 	<title>Lista de reproducción</title>
 	<trackList>
 		<track>
-			<location>/canciones/01%20Susie%20Q.mp3</location>
+			<location>canciones/01%20Susie%20Q.mp3</location>
 			<title>Susie Q</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -15,7 +15,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/02%20I%20Put%20A%20Spell%20On%20You.mp3</location>
+			<location>canciones/02%20I%20Put%20A%20Spell%20On%20You.mp3</location>
 			<title>I Put A Spell On You</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -27,7 +27,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/03%20Proud%20Mary.mp3</location>
+			<location>canciones/03%20Proud%20Mary.mp3</location>
 			<title>Proud Mary</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -39,7 +39,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/04%20Bad%20Moon%20Rising%20-%20Remastered%201985.mp3</location>
+			<location>canciones/04%20Bad%20Moon%20Rising%20-%20Remastered%201985.mp3</location>
 			<title>Bad Moon Rising - Remastered 1985</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -51,7 +51,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/05%20Lodi%20-%20Remastered%201985.mp3</location>
+			<location>canciones/05%20Lodi%20-%20Remastered%201985.mp3</location>
 			<title>Lodi - Remastered 1985</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -63,7 +63,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/06%20Green%20River%20-%20Remastered%201985.mp3</location>
+			<location>canciones/06%20Green%20River%20-%20Remastered%201985.mp3</location>
 			<title>Green River - Remastered 1985</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -75,7 +75,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/07%20Commotion%20-%20Remastered%201985.mp3</location>
+			<location>canciones/07%20Commotion%20-%20Remastered%201985.mp3</location>
 			<title>Commotion - Remastered 1985</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -87,7 +87,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/08%20Down%20On%20The%20Corner.mp3</location>
+			<location>canciones/08%20Down%20On%20The%20Corner.mp3</location>
 			<title>Down On The Corner</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -99,7 +99,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/09%20Fortunate%20Son.mp3</location>
+			<location>canciones/09%20Fortunate%20Son.mp3</location>
 			<title>Fortunate Son</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -111,7 +111,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/10%20Travelin%27%20Band.mp3</location>
+			<location>canciones/10%20Travelin%27%20Band.mp3</location>
 			<title>Travelin&#39; Band</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -123,7 +123,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/11%20Who%27ll%20Stop%20The%20Rain.mp3</location>
+			<location>canciones/11%20Who%27ll%20Stop%20The%20Rain.mp3</location>
 			<title>Who&#39;ll Stop The Rain</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -135,7 +135,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/13%20Run%20Through%20The%20Jungle.mp3</location>
+			<location>canciones/13%20Run%20Through%20The%20Jungle.mp3</location>
 			<title>Run Through The Jungle</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -147,7 +147,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/12%20Up%20Around%20The%20Bend.mp3</location>
+			<location>canciones/12%20Up%20Around%20The%20Bend.mp3</location>
 			<title>Up Around The Bend</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -159,7 +159,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/14%20Lookin%27%20Out%20My%20Back%20Door.mp3</location>
+			<location>canciones/14%20Lookin%27%20Out%20My%20Back%20Door.mp3</location>
 			<title>Lookin&#39; Out My Back Door</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -171,7 +171,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/16%20I%20Heard%20It%20Through%20The%20Grapevine.mp3</location>
+			<location>canciones/16%20I%20Heard%20It%20Through%20The%20Grapevine.mp3</location>
 			<title>I Heard It Through The Grapevine</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -183,7 +183,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/15%20Long%20As%20I%20Can%20See%20The%20Light.mp3</location>
+			<location>canciones/15%20Long%20As%20I%20Can%20See%20The%20Light.mp3</location>
 			<title>Long As I Can See The Light</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -195,7 +195,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/17%20Have%20You%20Ever%20Seen%20The%20Rain.mp3</location>
+			<location>canciones/17%20Have%20You%20Ever%20Seen%20The%20Rain.mp3</location>
 			<title>Have You Ever Seen The Rain</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -207,7 +207,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/18%20Hey%20Tonight.mp3</location>
+			<location>canciones/18%20Hey%20Tonight.mp3</location>
 			<title>Hey Tonight</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -219,7 +219,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/19%20Sweet%20Hitch-Hiker.mp3</location>
+			<location>canciones/19%20Sweet%20Hitch-Hiker.mp3</location>
 			<title>Sweet Hitch-Hiker</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -231,7 +231,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/20%20Someday%20Never%20Comes.mp3</location>
+			<location>canciones/20%20Someday%20Never%20Comes.mp3</location>
 			<title>Someday Never Comes</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
@@ -243,7 +243,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/21%20Ramble%20Tamble.mp3</location>
+			<location>canciones/21%20Ramble%20Tamble.mp3</location>
 			<title>Ramble Tamble</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Cosmo&#39;s Factory</album>
@@ -255,7 +255,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/22%20Born%20On%20The%20Bayou.mp3</location>
+			<location>canciones/22%20Born%20On%20The%20Bayou.mp3</location>
 			<title>Born On The Bayou</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Bayou Country (Expanded Edition)</album>
@@ -267,7 +267,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/23%20It%20Came%20Out%20Of%20The%20Sky.mp3</location>
+			<location>canciones/23%20It%20Came%20Out%20Of%20The%20Sky.mp3</location>
 			<title>It Came Out Of The Sky</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Willy And The Poor Boys (Expanded Edition)</album>
@@ -279,7 +279,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/25%20Commotion.mp3</location>
+			<location>canciones/25%20Commotion.mp3</location>
 			<title>Commotion</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Green River (Expanded Edition)</album>
@@ -291,7 +291,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>lista_canciones/canciones/24%20Cotton%20Fields.mp3</location>
+			<location>canciones/24%20Cotton%20Fields.mp3</location>
 			<title>Cotton Fields</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Willy And The Poor Boys (Expanded Edition)</album>
