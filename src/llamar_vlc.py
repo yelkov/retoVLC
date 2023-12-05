@@ -1,4 +1,5 @@
 import subprocess
+import os
 
 def llamar_vlc(ruta_vlc,lista_reproduccion):
 
@@ -6,5 +7,5 @@ def llamar_vlc(ruta_vlc,lista_reproduccion):
     assert ruta_vlc != "", 'La ruta a VLC está vacía.'
     assert lista_reproduccion != [], 'La ruta a la lista de reproducción está vacía.'
 
-    comando = [ruta_vlc,lista_reproduccion]
+    comando = [ruta_vlc] + [lista_reproduccion]
     subprocess.run(comando)
