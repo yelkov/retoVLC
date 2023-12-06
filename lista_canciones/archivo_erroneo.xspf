@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Lista de reproducción</title>
+	<trackList>
+		<track>
+			<location> </location>
+			<title>Ramble Tamble</title>
+			<creator>Creedence Clearwater Revival</creator>
+			<album>Cosmo&#39;s Factory</album>
+			<trackNum>1</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Cosmo%27s Factory/art.jpg</image>
+			<duration>431705</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location> </location>
+			<title>Cotton Fields</title>
+			<creator>Creedence Clearwater Revival</creator>
+			<album>Willy And The Poor Boys (Expanded Edition)</album>
+			<trackNum>3</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Willy And The Poor Boys %28Expanded Edition%29/art.jpg</image>
+			<duration>174606</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location> </location>
+			<title>Born On The Bayou</title>
+			<creator>Creedence Clearwater Revival</creator>
+			<album>Bayou Country (Expanded Edition)</album>
+			<trackNum>1</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Bayou Country %28Expanded Edition%29/art.jpg</image>
+			<duration>315928</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location> </location>
+			<title>Commotion</title>
+			<creator>Creedence Clearwater Revival</creator>
+			<album>Green River (Expanded Edition)</album>
+			<trackNum>2</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Green River %28Expanded Edition%29/art.jpg</image>
+			<duration>165071</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location> </location>
+			<title>It Came Out Of The Sky</title>
+			<creator>Creedence Clearwater Revival</creator>
+			<album>Willy And The Poor Boys (Expanded Edition)</album>
+			<trackNum>2</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Willy And The Poor Boys %28Expanded Edition%29/art.jpg</image>
+			<duration>174110</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+	</extension>
+</playlist>
