@@ -2,7 +2,7 @@ import random
 
 def randomizar_lista(lista):
     # Precondicion: Verificamos si la entrada es una lista
-    assert isinstance(lista,list), f'La entrada de datos {lista} no es una lista'
+    assert isinstance(lista,list), 'La entrada de datos no es una lista'
 
     # Hacemos una copia de la lista de entrada para no variar los datos originales
     lista_random = lista[:]
@@ -17,6 +17,6 @@ def randomizar_lista(lista):
     diccionario_lista = {elemento: 0 for elemento in lista}
     diccionario_lista_random = {elemento: 0 for elemento in lista_random}
 
-    assert diccionario_lista == diccionario_lista_random
+    assert diccionario_lista == diccionario_lista_random, "Los elementos de la lista de canciones no coinciden con los elementos de la lista randomizada"
 
     return lista_random
