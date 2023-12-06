@@ -3,301 +3,277 @@
 	<title>Lista de reproducción</title>
 	<trackList>
 		<track>
-			<location>canciones/01%20Susie%20Q.mp3</location>
+			<location>lista_canciones/canciones/01 Susie Q.mp3</location>
 			<title>Susie Q</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>1</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
-			<duration>520077</duration>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
+			<duration>520075</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>0</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/02%20I%20Put%20A%20Spell%20On%20You.mp3</location>
-			<title>I Put A Spell On You</title>
-			<creator>Creedence Clearwater Revival</creator>
-			<album>Chronicle: 20 Greatest Hits</album>
-			<trackNum>2</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
-			<duration>270972</duration>
+			<location>lista_canciones/canciones/02 I Put A Spell On You.mp3</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/03%20Proud%20Mary.mp3</location>
+			<location>lista_canciones/canciones/03 Proud Mary.mp3</location>
 			<title>Proud Mary</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>3</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>189156</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/04%20Bad%20Moon%20Rising%20-%20Remastered%201985.mp3</location>
+			<location>lista_canciones/canciones/04 Bad Moon Rising - Remastered 1985.mp3</location>
 			<title>Bad Moon Rising - Remastered 1985</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>4</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>139576</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/05%20Lodi%20-%20Remastered%201985.mp3</location>
+			<location>lista_canciones/canciones/05 Lodi - Remastered 1985.mp3</location>
 			<title>Lodi - Remastered 1985</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>5</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>190462</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>4</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/06%20Green%20River%20-%20Remastered%201985.mp3</location>
+			<location>lista_canciones/canciones/06 Green River - Remastered 1985.mp3</location>
 			<title>Green River - Remastered 1985</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>6</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>153368</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>5</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/07%20Commotion%20-%20Remastered%201985.mp3</location>
+			<location>lista_canciones/canciones/07 Commotion - Remastered 1985.mp3</location>
 			<title>Commotion - Remastered 1985</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>7</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>162459</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>6</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/08%20Down%20On%20The%20Corner.mp3</location>
+			<location>lista_canciones/canciones/08 Down On The Corner.mp3</location>
 			<title>Down On The Corner</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>8</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>166116</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>7</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/09%20Fortunate%20Son.mp3</location>
+			<location>lista_canciones/canciones/09 Fortunate Son.mp3</location>
 			<title>Fortunate Son</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>9</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>137094</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>8</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/10%20Travelin%27%20Band.mp3</location>
+			<location>lista_canciones/canciones/10 Travelin' Band.mp3</location>
 			<title>Travelin&#39; Band</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>10</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>127533</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>9</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/11%20Who%27ll%20Stop%20The%20Rain.mp3</location>
+			<location>lista_canciones/canciones/11 Who'll Stop The Rain.mp3</location>
 			<title>Who&#39;ll Stop The Rain</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>11</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>150652</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>10</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/13%20Run%20Through%20The%20Jungle.mp3</location>
-			<title>Run Through The Jungle</title>
+			<location>lista_canciones/canciones/12 Up Around The Bend.mp3</location>
+			<title>Up Around The Bend</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
-			<trackNum>13</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
-			<duration>190070</duration>
+			<trackNum>12</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
+			<duration>165071</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>11</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/12%20Up%20Around%20The%20Bend.mp3</location>
-			<title>Up Around The Bend</title>
+			<location>lista_canciones/canciones/13 Run Through The Jungle.mp3</location>
+			<title>Run Through The Jungle</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
-			<trackNum>12</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
-			<duration>165071</duration>
+			<trackNum>13</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
+			<duration>190070</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>12</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/14%20Lookin%27%20Out%20My%20Back%20Door.mp3</location>
-			<title>Lookin&#39; Out My Back Door</title>
+			<location>lista_canciones/canciones/15 Long As I Can See The Light.mp3</location>
+			<title>Long As I Can See The Light</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
-			<trackNum>14</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
-			<duration>145088</duration>
+			<trackNum>15</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
+			<duration>212562</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>13</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/16%20I%20Heard%20It%20Through%20The%20Grapevine.mp3</location>
-			<title>I Heard It Through The Grapevine</title>
+			<location>lista_canciones/canciones/14 Lookin' Out My Back Door.mp3</location>
+			<title>Lookin&#39; Out My Back Door</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
-			<trackNum>16</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
-			<duration>232101</duration>
+			<trackNum>14</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
+			<duration>145088</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>14</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/15%20Long%20As%20I%20Can%20See%20The%20Light.mp3</location>
-			<title>Long As I Can See The Light</title>
+			<location>lista_canciones/canciones/16 I Heard It Through The Grapevine.mp3</location>
+			<title>I Heard It Through The Grapevine</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
-			<trackNum>15</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
-			<duration>212562</duration>
+			<trackNum>16</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
+			<duration>232101</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>15</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/17%20Have%20You%20Ever%20Seen%20The%20Rain.mp3</location>
+			<location>lista_canciones/canciones/17 Have You Ever Seen The Rain.mp3</location>
 			<title>Have You Ever Seen The Rain</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>17</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>183775</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>16</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/18%20Hey%20Tonight.mp3</location>
+			<location>lista_canciones/canciones/18 Hey Tonight.mp3</location>
 			<title>Hey Tonight</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>18</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>165071</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>17</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/19%20Sweet%20Hitch-Hiker.mp3</location>
+			<location>lista_canciones/canciones/19 Sweet Hitch-Hiker.mp3</location>
 			<title>Sweet Hitch-Hiker</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Chronicle: 20 Greatest Hits</album>
 			<trackNum>19</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Chronicle_ 20 Greatest Hits/art.jpg</image>
 			<duration>174214</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>18</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/20%20Someday%20Never%20Comes.mp3</location>
-			<title>Someday Never Comes</title>
-			<creator>Creedence Clearwater Revival</creator>
-			<album>Chronicle: 20 Greatest Hits</album>
-			<trackNum>20</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Chronicle_%2020%20Greatest%20Hits/art.jpg</image>
-			<duration>245084</duration>
+			<location>lista_canciones/canciones/20 Someday Never Comes.mp3</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>19</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/21%20Ramble%20Tamble.mp3</location>
+			<location>lista_canciones/canciones/21 Ramble Tamble.mp3</location>
 			<title>Ramble Tamble</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Cosmo&#39;s Factory</album>
 			<trackNum>1</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Cosmo%27s%20Factory/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Cosmo's Factory/art.jpg</image>
 			<duration>431703</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>20</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/22%20Born%20On%20The%20Bayou.mp3</location>
-			<title>Born On The Bayou</title>
-			<creator>Creedence Clearwater Revival</creator>
-			<album>Bayou Country (Expanded Edition)</album>
-			<trackNum>1</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Bayou%20Country%20%28Expanded%20Edition%29/art.jpg</image>
-			<duration>315928</duration>
+			<location>lista_canciones/canciones/22 Born On The Bayou.mp3</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>21</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/23%20It%20Came%20Out%20Of%20The%20Sky.mp3</location>
+			<location>lista_canciones/canciones/23 It Came Out Of The Sky.mp3</location>
 			<title>It Came Out Of The Sky</title>
 			<creator>Creedence Clearwater Revival</creator>
 			<album>Willy And The Poor Boys (Expanded Edition)</album>
 			<trackNum>2</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Willy%20And%20The%20Poor%20Boys%20%28Expanded%20Edition%29/art.jpg</image>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Willy And The Poor Boys %28Expanded Edition%29/art.jpg</image>
 			<duration>174110</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>22</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/25%20Commotion.mp3</location>
-			<title>Commotion</title>
-			<creator>Creedence Clearwater Revival</creator>
-			<album>Green River (Expanded Edition)</album>
-			<trackNum>2</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Green%20River%20%28Expanded%20Edition%29/art.jpg</image>
-			<duration>165071</duration>
+			<location>lista_canciones/canciones/24 Cotton Fields.mp3</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>23</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>canciones/24%20Cotton%20Fields.mp3</location>
-			<title>Cotton Fields</title>
+			<location>lista_canciones/canciones/25 Commotion.mp3</location>
+			<title>Commotion</title>
 			<creator>Creedence Clearwater Revival</creator>
-			<album>Willy And The Poor Boys (Expanded Edition)</album>
-			<trackNum>3</trackNum>
-			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence%20Clearwater%20Revival/Willy%20And%20The%20Poor%20Boys%20%28Expanded%20Edition%29/art.jpg</image>
-			<duration>174606</duration>
+			<album>Green River (Expanded Edition)</album>
+			<trackNum>2</trackNum>
+			<image>file:///C:/Users/yelko/AppData/Roaming/vlc/art/artistalbum/Creedence Clearwater Revival/Green River %28Expanded Edition%29/art.jpg</image>
+			<duration>165073</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>24</vlc:id>
 			</extension>
