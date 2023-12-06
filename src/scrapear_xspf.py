@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import os 
 
-def scrapear_xspf(archivo_xspf):
+def obtener_localizaciones(archivo_xspf):
     # Precondición: Verificar si la entrada es un archivo XSPF
     assert archivo_xspf.endswith('.xspf'), f"El archivo {archivo_xspf} no tiene la extensión .xspf."
 
