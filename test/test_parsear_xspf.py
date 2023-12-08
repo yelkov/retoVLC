@@ -23,4 +23,7 @@ def test_archivo_vacio():
     with pytest.raises(SystemExit) as exit:
         obtener_localizaciones('archivo_vacio.xspf')
     
+def test_archivo_inexistente():
+    with pytest.raises(SystemExit) as exit:
+        obtener_localizaciones('este_archivo_no_esta')
     
