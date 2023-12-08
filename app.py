@@ -1,5 +1,4 @@
 import sys
-import xml.etree.ElementTree as ET
 from src.parsear_xspf import obtener_localizaciones
 from src.validar_lista_localizaciones import validar_lista_localizaciones
 from src.randomizar_lista import randomizar_lista
