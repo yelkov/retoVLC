@@ -41,6 +41,3 @@ venv.bak/
 # VSCode
 .vscode
 
-# Requirements
-*.in
-
