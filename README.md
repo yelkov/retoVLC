@@ -7,8 +7,10 @@
     -   [**Instalación**](#instalación)
     -   [**Uso**](#uso)
 - [**Metodología**](#metodología)
-    - [**Ramas principales**](#ramas-principales)
-    - [**Flujo de trabajo**](#flujo-de-trabajo)
+    - [**Uso de Git**](#uso-de-git)
+        - [**Ramas principales**](#ramas-principales)
+        - [**Flujo de trabajo**](#flujo-de-trabajo)
+    - [**Programación defensiva**](#programación-defensiva)
 - [**Descripción técnica**](#descripción-técnica)
     - [**Arquitectura de la aplicación**](#arquitectura-de-la-aplicación)
     - [**Diseño**](#diseño)
@@ -123,7 +125,8 @@ El programa siempre va a exigir el nombre de la lista a reproducir. En caso de e
 
 # Metodología
 
-**Uso de Git**. Este proyecto sigue una metodología de desarrollo incremental basada en ramas que facilita la gestión de versiones y la colaboración entre desarrolladores. A continuación, se detalla el flujo de trabajo.
+## **Uso de Git**
+ Este proyecto sigue una metodología de desarrollo incremental basada en ramas que facilita la gestión de versiones y la colaboración entre desarrolladores. A continuación, se detalla el flujo de trabajo.
 
 ### Ramas Principales
 
@@ -169,6 +172,12 @@ El programa siempre va a exigir el nombre de la lista a reproducir. En caso de e
     ```
     $ git push origin 1.0.0
     ```
+## **Programación defensiva**
+Se utiliza esta estrategia para gestionar errores previsibles en la entrada de datos y aumentar robustez del código así como validaciones en puntos críticos que eviten la propagación de defectos no esperados. Se implementa a través del manejo de excepciones y programación por contrato.
+
+- **Manejo de excepciones** : se aplica tanto en el módulo [`parsear_xspf`](#parsear_xspf)  (ET.ParseError y FileNotFoundError) como en [`llamar_vlc`](#llamar_vlc) (FileNotFoundError), para detectar y gestionar errores como archivos corrompidos que no se puedan parsear, archivos no encontrados o bien ruta no encontrada para vlc.
+
+ - **Programación por contrato** : se implementa en los módulos [`validar_lista_localizaciones`](#validar_lista_localizaciones) y [`randomizar_lista`](#randomizar_lista). En este sentido, la programación defensiva se aplica mediante la verificación de tipos en las precondiciones (que sea una lista) y validación de contenido en las postcondiciones (mantener el input como invariante y tipo de los datos de salida).
 
 # **Descripción técnica**
 ## **Arquitectura de la aplicación**
@@ -191,13 +200,17 @@ El programa siempre va a exigir el nombre de la lista a reproducir. En caso de e
 
 ## **Diseño**
 ![Diseño](imagenes/diseño.jpg)
-`parsear_xspf` - Lee un archivo XSPF y lo parsea utilizando xml.etree.ElementTree, extrayendo las localizaciones de canciones y devolviendo una lista. Maneja errores como archivos vacíos (o que no se pueden parsear) o archivos no encontrados.
+#### `parsear_xspf` :
+ Lee un archivo XSPF y lo parsea utilizando xml.etree.ElementTree, extrayendo las localizaciones de canciones y devolviendo una lista. Maneja errores como archivos vacíos (o que no se pueden parsear) o archivos no encontrados.
     
-`validar_lista_localizaciones` - asegura que una lista de localizaciones sea válida, comprobando que sea una lista de cadenas no vacías, y la devuelve si cumple con las condiciones de validación.
+#### `validar_lista_localizaciones` :
+ Asegura que una lista de localizaciones sea válida, comprobando que sea una lista de cadenas no vacías, y la devuelve si cumple con las condiciones de validación.
 
-`randomizar_lista` duplica y reordena aleatoriamente los elementos de una lista, validando que todos los elementos originales estén presentes en la lista reordenada.
+#### `randomizar_lista` :
+Duplica y reordena aleatoriamente los elementos de una lista, validando que todos los elementos originales estén presentes en la lista reordenada.
 
-`llamar_vlc` ejecuta VLC con una lista de reproducción, considerando el sistema operativo y validando la existencia del ejecutable de VLC en rutas predefinidas.
+#### `llamar_vlc` :
+Ejecuta VLC con una lista de reproducción, considerando el sistema operativo y validando la existencia del ejecutable de VLC en rutas predefinidas.
 
 # **Implementación**
 ## **Tecnologías y Herramientas Elegidas**
@@ -232,17 +245,17 @@ Los test realizados se pueden encontrar en la carpeta test.
 En el proyecto se utilizan dos tipos de test:
 - **Unitarios** : Evalúa un módulo particular de código para verificar su comportamiento y funcionamiento esperado.
 
-    `test_parsear_xspf.py` : El código contiene 6 tests que verifican la funcionalidad de obtener_localizaciones para archivos XSPF específicos, incluyendo casos de archivos vacíos o inexistentes.
+    - **test_parsear_xspf.py** : El código contiene `6 tests` que verifican la funcionalidad de obtener_localizaciones para archivos XSPF específicos, incluyendo casos de archivos vacíos o inexistentes.
     
-    `test_validar_localizaciones.py` : cuenta con 2 test, uno en el que se prueba la salida con archivos erróneos y otro con archivos válidos.
+    - **test_validar_localizaciones.py** : cuenta con `2 test`, uno en el que se prueba la salida con archivos erróneos y otro con archivos válidos.
 
-    `test_randomizar_lista.py` : El código tiene 5 tests que verifican la funcionalidad de randomizar_lista para diferentes casos, incluyendo listas vacías, conservación de elementos y longitud de los mismos.
+    - **test_randomizar_lista.py** : El código tiene `5 tests` que verifican la funcionalidad de randomizar_lista para diferentes casos, incluyendo listas vacías, conservación de elementos y longitud de los mismos.
 
 - **Integración** : Son test para evaluar la interacción entre múltiples componentes o módulos del software, asegurando su colaboración adecuada.
 
-    `test_integracion_validador.py` : 2 tests de integración que evalúan la funcionalidad combinada de obtener_localizaciones y validar_lista_localizaciones. Verifican la validación exitosa y el manejo adecuado de archivos incorrectos o vacíos.
+    - **test_integracion_validador.py** : `2 tests` de integración que evalúan la funcionalidad combinada de obtener_localizaciones y validar_lista_localizaciones. Verifican la validación exitosa y el manejo adecuado de archivos incorrectos o vacíos.
 
-    `test_integracion_random.py` : 3 tests de integración que evalúan las funciones combinadas validar_lista_localizaciones, obtener_localizaciones y randomizar_lista. Verifican longitudes y contenidos, asegurando la diversidad y validez de las listas resultantes.
+    - **test_integracion_random.py** : `3 tests` de integración que evalúan las funciones combinadas validar_lista_localizaciones, obtener_localizaciones y randomizar_lista. Verifican longitudes y contenidos, asegurando la diversidad y validez de las listas resultantes.
 
 El módulo que llama a VLC no es posible testearlo con código, ya que la comprobación del proceso es la propia ejecución de VLC.
 
