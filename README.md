@@ -13,6 +13,7 @@
     - [**Programación defensiva**](#programación-defensiva)
 - [**Descripción técnica**](#descripción-técnica)
     - [**Arquitectura de la aplicación**](#arquitectura-de-la-aplicación)
+    - [**Ejemplo de archivo xspf**](#ejemplo-de-archivo-xspf)
 - [**Diseño**](#diseño)
 - [**Implementación**](#implementación)
 - [**Test**](#test)
@@ -206,6 +207,9 @@ Se utiliza esta estrategia para gestionar errores previsibles en la entrada de d
 
 - **Capa de acceso a datos**
     -   **parsear_xspf.py** : lee un archivo XSPF, parsea sus elementos XML y devuelve una lista de localizaciones de canciones.
+
+### Ejemplo de archivo XSPF
+![xspf](imagenes/ejemplo_xspf.PNG)
 
 
 ## **Diseño**
