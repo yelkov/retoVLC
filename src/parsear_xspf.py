@@ -6,7 +6,9 @@ def obtener_localizaciones(archivo_xspf):
     # Ruta al archivo xspf que usaremos para parsear. Necesitamos introducirlo antes como parametro
     # pero siempre lo va a buscar en la carpeta 'lista_canciones'
     ruta_xspf = os.path.join(os.path.dirname(__file__), '..', 'lista_canciones', archivo_xspf)
-        
+
+
+    #Introducimos un bloque try except para manejar los errores surgidos de la lectura del xspf o la ausencia del archivo. Colocamos una salida del programa en el caso de que se produzca cualquiera de estos errores.    
     try:
         # Parsear xspf usando ET y obtenemos raiz, que utilizaremos despues para crear nuestra estructura de datos, que sera una lista
         arbol = ET.parse(ruta_xspf)

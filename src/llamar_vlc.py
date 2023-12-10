@@ -1,12 +1,13 @@
 import subprocess
 import platform
-import os 
 
 def llamar_vlc(lista_reproduccion):
 
     # Precondicion: Verificamos que la entrada de datos es una lista
     assert isinstance(lista_reproduccion,list), f'El archivo introducido como parámetro no es una lista.'
 
+    # Utilizamos la librería platform para identificar el sistema operativo del equipo con el que está trabajando el usuario, y en función de esto el programa buscará una ruta en la que esté instalado VLC.
+    
     sistema_operativo = platform.system()
 
     if sistema_operativo == "Windows":
@@ -47,3 +48,12 @@ def llamar_vlc(lista_reproduccion):
 
         except FileNotFoundError:
             "VLC no se encuentra en la ruta esperada."
+
+    else:
+        try:
+            ruta_vlc = r"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"
+            comando = [ruta_vlc] + lista_reproduccion
+            subprocess.run(comando)
+
+        except FileNotFoundError:
+            "No es posible identificar el sistema operativo."

@@ -13,13 +13,14 @@
     - [**Programación defensiva**](#programación-defensiva)
 - [**Descripción técnica**](#descripción-técnica)
     - [**Arquitectura de la aplicación**](#arquitectura-de-la-aplicación)
-    - [**Diseño**](#diseño)
+- [**Diseño**](#diseño)
 - [**Implementación**](#implementación)
 - [**Test**](#test)
     - [**Coverage**](#coverage)
 - [**Tiempo de trabajo**](#tiempo-de-trabajo)
 - [**Conclusiones**](#conclusiones)
-- [**Dificultades**](#dificultades)
+    - [**Posibles mejoras**](#posibles-mejoras)
+    - [**Dificultades**](#dificultades)
 
 # **Introducción**
 
@@ -66,7 +67,10 @@ Se ha utilizado como lenguaje de programación Python (versión 3.11.5) para la 
     ```
     $ pip install -r requirements.txt
     ```
-5. Después de ejecutar el programa, si queremos **desactivar el entorno virtual**:
+5. En caso de no tener instalado el **reproductor VLC** en el equipo, podemos descargar el setup de [la página de VLC](https://www.videolan.org/vlc/download-windows.es.html) y ejecutarlo, manteniendo la instalación por defecto.
+
+    El programa va a buscar el ejecutable de VLC en la ruta *C:\Program Files (x86)\VideoLAN\VLC\vlc.exe* o en su defecto en *C:\Program Files\VideoLAN\VLC\vlc.exe* . Si este no se encuentra instalado en alguna de esas rutas se enviará un mensaje de error.
+6. Después de ejecutar el programa, si queremos **desactivar el entorno virtual**:
     ```
     $ deactivate
     ```
@@ -94,7 +98,13 @@ Se ha utilizado como lenguaje de programación Python (versión 3.11.5) para la 
     ```
     $ pip install -r requirements.txt
     ```
-5. Después de ejecutar el programa, si queremos **desactivar el entorno virtual**:
+5. En caso de no tener instalado el **reproductor VLC** en el equipo:
+    ```
+    $ sudo apt install vlc
+    ```
+    El programa va a buscar el ejecutable de VLC en la ruta */usr/bin/vlc* o en su defecto en */snap/bin/vlc* . Si este no se encuentra instalado en alguna de esas rutas se enviará un mensaje de error.
+
+6. Después de ejecutar el programa, si queremos **desactivar el entorno virtual**:
     ```
     $ deactivate
     ```
@@ -102,7 +112,7 @@ Se ha utilizado como lenguaje de programación Python (versión 3.11.5) para la 
 ## **Uso**
 Podemos reproducir una de las listas creadas en el directorio **lista_canciones** o bien depositar nuestra lista de canciones en formato .xspf en ese directorio en particular para ser reproducida. 
 
-Por defecto tendremos dos listas válidas para reproducir, que serán 'creedence.xspf' y 'lista_prueba.xspf'. Las canciones de estas dos listas se encuentran en el subdirectorio **canciones** (lista_canciones/canciones). Si el usuario quiere ejecutar su propia lista no necesita añadir las canciones a este subdirectorio, siempre que la ruta a las canciones se encuentre en el propio equipo y que el archivo .xspf se encuentre en un formato válido.
+Por defecto tendremos dos listas válidas para reproducir, que son 'creedence.xspf' y 'lista_prueba.xspf'. Las canciones de estas dos listas se encuentran en el subdirectorio **canciones** (lista_canciones/canciones). Si el usuario quiere ejecutar su propia lista no necesita añadir las canciones a este subdirectorio, siempre que la ruta a las canciones se encuentre en el propio equipo y que el archivo .xspf se encuentre en un formato válido.
 
 El programa siempre va a exigir el nombre de la lista a reproducir. En caso de error en la escritura,error de formato del archivo o falta del nombre de la lista, se le indicará al usuario cual es el error para que pueda subsanarlo.
 
@@ -117,7 +127,7 @@ El programa siempre va a exigir el nombre de la lista a reproducir. En caso de e
     ```bash
     $ python3 app.py creedence.xspf
     ```
-    Debemos aseguramos de estar en el directorio raíz (retoVLC). Si el usuario quiere introducir su propia lista, cambiamos 'creedence.xspf' por el nombre de la lista deseada (incluida la extensión .xspf)
+    Debemos aseguramos de estar situados en el directorio raíz (retoVLC). Si el usuario quiere introducir su propia lista, cambiamos 'creedence.xspf' por el nombre de la lista deseada (incluida la extensión .xspf)
     
 2. Para detener la reproducción, **cerramos VLC**.
 
@@ -274,5 +284,30 @@ La distribución de tiempo entre las distintas partes del proyecto es la que sig
 ![Queso](imagenes/queso_horas.png)
 ![Barras](imagenes/barras_horas.png)
 
-# Conclusiones
-# Dificultades
+# **Conclusiones**
+Consideramos que a pesar de que el problema a resolver es relativamente sencillo, el hecho de hacer un trabajo de estas características por primera vez supone un reto del que se ha conseguido sacar mucho provecho de cara al aprendizaje. 
+
+Durante la construcción de los diferentes módulos, su testeo e integración posterior, hemos podido asimilar la razón de aplicar ciertas estructuras y metodologías de trabajo que permiten mantener el desarollo controlado. Han surgido ciertos errores durante la realización del proyecto que sin estas herramientas hubiesen sido más difíciles de identificar y corregir. 
+
+Como conlusión final, independientemente del resultado de la calificación de este reto, resulta motivador comprobar el avance de estos últimos meses en el desarrollo de un software ejecutable y aplicar los conocimientos obtenidos.  
+
+
+## **Posibles mejoras**
+
+- Leer varias listas de canciones e integrarlas en una sola al ejecutar VLC (es decir, pasar como argumento más de una lista de canciones).
+- Posibilidad de que el usuario no necesite guardar un archivo xspf extraído previamente, sino que este se genere a partir de una serie de canciones elegidas por él.
+
+
+## **Dificultades**
+
+El enfrentarse por primera vez a muchas de las herramientas y metodologías empleadas (Git, programación defensiva), así como sobre todo el trabajo previo de pensar en la estructura y diseño del proyecto han supuesto los mayores desafíos. 
+
+Aunque no se ha reflejado en el tiempo final de trabajo, una parte importante de este fue destinado al uso de Git como herramienta de control de versiones para tratar de mantener un flujo de desarrollo lo más legible posible. 
+
+Los módulos en los que más tiempo se ha empleado son parsear_xspf y validar_localizaciones:
+- En el primer caso la dificultad se encontraba en la manera acceder a los datos necesarios para desarrollar el proyecto, cómo introducir el archivo requerido como argumento indicando la ruta adecuada y como manejar los posibles errores que pueden surgir de la lectura de ese archivo.
+- Por otro lado, el desarollo de este módulo surge de la idea de crear una barricada de saneamiento para la entrada de datos, si bien más tarde se optó por gestionar los errores de lectura en el módulo de parsear. Este segundo módulo se utilizó entonces para comprobar la validez de los datos extraidos en el módulo anterior, y es posible que en posteriores desarrollos se pudiese ampliar este mismo para una mejor obtención de datos válidos.
+
+Otra de las dificultades se encontró en la creación de los test, a pesar de que tampoco se refleja de todo en los esquemas de tiempo. La mayor dificultad ha sido el testeo de los casos en los que intervienen las excepciones, comprendender la sintaxis para que pytest detecte que esa excepción está gestionada. Además hay algunas partes del trabajo que podrían estar mejor testeadas, en particular no se encontró una solución óptima al testeo del módulo que ejecuta VLC. Se pudo probar la validez del programa para Windows y para Linux, si bien para sistemas operativos de Apple no tenemos ningún tipo de feedback.
+
+Por último, la cuestión de las dependencias del proyecto es la que más dudas nos genera una vez entregado este, y es un tema en el que necesariamente tendremos que indagar y mejorar a futuro.  
