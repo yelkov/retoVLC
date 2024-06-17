@@ -1,9 +1,9 @@
 import tkinter as tk
-from buscar_xspf import buscar_archivos_xspf
-from parsear_xspf import obtener_localizaciones
-from validar_lista_localizaciones import validar_lista_localizaciones
-from randomizar_lista import randomizar_lista
-from llamar_vlc import llamar_vlc
+from .buscar_xspf import buscar_archivos_xspf
+from .parsear_xspf import obtener_localizaciones
+from .validar_lista_localizaciones import validar_lista_localizaciones
+from .randomizar_lista import randomizar_lista
+from .llamar_vlc import llamar_vlc
 
 def iniciar_interfaz():
 
@@ -57,4 +57,3 @@ def randomizar(archivo_xspf):
     lista_randomizada = randomizar_lista(lista_localizaciones)
     llamar_vlc(lista_randomizada)
 
-iniciar_interfaz()
