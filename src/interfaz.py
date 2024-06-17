@@ -11,27 +11,30 @@ def iniciar_interfaz():
 
     raiz = tk.Tk()
     raiz.title("VLC mixer")
-    raiz.config(bg="lightgrey")
+    raiz.config(bg="#616161")
     raiz.iconbitmap(r"imagenes\\logo.ico")
     raiz.grid_columnconfigure(0,weight=1)
 
     # ======== FRAME PRINCIPAL =========
 
-    frame_principal = tk.Frame(raiz,width=640,height=396)
-    frame_principal.grid(row=0,column=0,padx=10,pady=10,sticky="nsew")
+    frame_principal = tk.Frame(raiz,width=540,height=316, bg="#161a4a",padx=20,pady=20)
+    frame_principal.grid(row=0,column=0,padx=2,pady=2,sticky="nsew")
     frame_principal.grid_propagate(False)
 
     frame_principal.grid_columnconfigure(0, weight=1)
 
+
         # ------- texto superior --------
 
-    texto_principal = tk.Label(frame_principal,text="¡Bienvenido a VLC mixer de canciones!",justify="center")
-    texto_principal.grid(row=0,column=0,sticky="n")
+    texto_principal = tk.Label(frame_principal,text="¡Bienvenido a VLC mixer de canciones!",justify="center",bg="#161a4a",fg="#fcae64",font=("Arial",16,"bold"),highlightthickness=1,highlightbackground="#fcae64",padx=15,pady=5)
+    texto_principal.grid(row=1,column=0,sticky="ns")
+
+    
 
         # ------- texto instrucciones --------
 
-    texto_instrucciones = tk.Label(frame_principal, text="Para utilizar el programa, puede seleccionar una lista de canciones y a continuación hacer click en randomizar.")
-    texto_instrucciones.grid(row=2,column=0,sticky="n")
+    texto_instrucciones = tk.Label(frame_principal, text="Seleccione una lista de canciones y a continuación haga click en randomizar.",bg="#161a4a",fg="#fcae64",pady=15)
+    texto_instrucciones.grid(row=3,column=0,sticky="n")
 
         # ------- menú de seleccion --------
 
@@ -39,12 +42,13 @@ def iniciar_interfaz():
     archivo_seleccionado.set("Seleccione una lista")
     lista_archivos = buscar_archivos_xspf()
     selector = tk.OptionMenu(frame_principal,archivo_seleccionado,*lista_archivos)
-    selector.grid(row=3,column=0,sticky="s")
+    selector.config(bg="#161a4a",fg="#fcae64",highlightbackground="#fcae64",activebackground="#fcae64",activeforeground="#161a4a")
+    selector["menu"].config(bg="#161a4a",fg="#fcae64",activebackground="#fcae64",activeforeground="#161a4a")
+    selector.grid(row=4,column=0,sticky="s",pady=(0,20))
 
         # ------- botón de randomizar --------
-    boton_randomizar = tk.Button(frame_principal,text="¡Randomiza!",command=lambda:randomizar(archivo_seleccionado.get()))
-    boton_randomizar.grid(row=4,column=0,sticky="s")
-
+    boton_randomizar = tk.Button(frame_principal,text="¡Randomizar!",command=lambda:randomizar(archivo_seleccionado.get()),padx=10,pady=10,font=("Arial",18,"bold"),bg="#fcae64",fg="#313131",activebackground="#313131",activeforeground="#fcae64")
+    boton_randomizar.grid(row=5,column=0,sticky="s",pady=(40,0))
     raiz.mainloop()
 
 
