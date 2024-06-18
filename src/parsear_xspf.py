@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import sys
 import os
+from tkinter import messagebox
 
 def obtener_localizaciones(archivo_xspf):
     # Ruta al archivo xspf que usaremos para parsear. Necesitamos introducirlo antes como parametro
@@ -27,9 +28,9 @@ def obtener_localizaciones(archivo_xspf):
         return lista_localizaciones
     
     except ET.ParseError:
-        print("El archivo está vacío o no sigue correctamente el formato .xspf.")
-        sys.exit(1)
+        messagebox.showerror("Error","El archivo está vacío o no sigue correctamente el formato .xspf.")
+        
 
     except FileNotFoundError:
-        print("No se encuentra el archivo .xspf en la carpeta lista_prueba.")
-        sys.exit(1)
+        messagebox.showerror("Error","No se encuentra el archivo .xspf en la carpeta lista_prueba.")
+        

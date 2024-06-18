@@ -1,4 +1,5 @@
 import sys
+from tkinter import messagebox
 
 def validar_lista_localizaciones(lista_localizaciones):
     # Precondicion: Verificamos que el parámetro introducido es una lista.
@@ -8,8 +9,7 @@ def validar_lista_localizaciones(lista_localizaciones):
     # Iteramos sobre todos los elementos para comprobar que ninguno está vacío.
     for localizacion in lista_localizaciones:
         if localizacion == None or localizacion.strip() == "" : 
-            print("El archivo .xspf contiene localizaciones vacías.")
-            sys.exit(1)
+            messagebox.showinfo("Atención","El archivo .xspf contiene localizaciones vacías.")
         else:
             continue
     

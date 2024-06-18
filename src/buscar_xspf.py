@@ -1,5 +1,6 @@
 import os
 import sys
+from tkinter import messagebox 
 
 def buscar_archivos_xspf():
     try:
@@ -20,7 +21,6 @@ def buscar_archivos_xspf():
 
     
     except FileNotFoundError:
-        print("El directorio 'lista_canciones' no se encuentra.")
-        sys.exit(1)
+        messagebox.showerror("Error," "El directorio 'lista_canciones' no se encuentra.")
 
 
