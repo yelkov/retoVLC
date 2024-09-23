@@ -115,20 +115,7 @@ Podemos reproducir una de las listas creadas en el directorio **lista_canciones*
 
 Por defecto tendremos dos listas válidas para reproducir, que son 'creedence.xspf' y 'lista_prueba.xspf'. Las canciones de estas dos listas se encuentran en el subdirectorio **canciones** (lista_canciones/canciones). Si el usuario quiere ejecutar su propia lista no necesita añadir las canciones a este subdirectorio, siempre que la ruta a las canciones se encuentre en el propio equipo y que el archivo .xspf se encuentre en un formato válido.
 
-El programa siempre va a exigir el nombre de la lista a reproducir. En caso de error en la escritura,error de formato del archivo o falta del nombre de la lista, se le indicará al usuario cual es el error para que pueda subsanarlo.
 
-1. **Abrimos un terminal**.
-    
-    - **Windows**:
-    ```
-    $ app.py creedence.xspf
-    ```
-
-    - **Linux**:
-    ```bash
-    $ python3 app.py creedence.xspf
-    ```
-    Debemos aseguramos de estar situados en el directorio raíz (retoVLC). Si el usuario quiere introducir su propia lista, cambiamos 'creedence.xspf' por el nombre de la lista deseada (incluida la extensión .xspf)
     
 2. Para detener la reproducción, **cerramos VLC**.
 
@@ -144,6 +131,8 @@ El programa siempre va a exigir el nombre de la lista a reproducir. En caso de e
 - **`main`**: La rama *main* representa la versión estable y lista para producción del proyecto. Cada versión estable se etiqueta con un número de versión. Actualmente, la primera y última versión estable es la **1.0.0**.
 
 - **`develop`**: La rama *develop* es la rama principal de desarrollo. Todas las nuevas características y desarrollos se realizan en esta rama. Es importante destacar que esta rama nunca debe considerarse como una versión estable del proyecto.
+
+- **`interfaz`**: Rama creada para el desarrollo de una interfaz gráfica.
 
 ### Flujo de Trabajo
 
@@ -196,6 +185,7 @@ Se utiliza esta estrategia para gestionar errores previsibles en la entrada de d
 
 - **Capa de servicio** 
     -   **app.py** - programa principal.
+    -   **interfaz.py** - crea la interfaz gráfica de usuario.
 
 - **Capa de negocio**
     
@@ -213,7 +203,11 @@ Se utiliza esta estrategia para gestionar errores previsibles en la entrada de d
 
 
 ## **Diseño**
-![Diseño](imagenes/diseño.jpg)
+![Diseño](imagenes/diseño2.jpg)
+
+#### `buscar_xspf.py` :
+Busca archivos con extensión .xspf en un directorio predefinido (lista_canciones). Usa os.listdir para obtener el contenido del directorio y filtra los archivos .xspf. Si el directorio no se encuentra, muestra un mensaje de error utilizando tkinter.messagebox.
+
 #### `parsear_xspf` :
  Lee un archivo XSPF y lo parsea utilizando xml.etree.ElementTree, extrayendo las localizaciones de canciones y devolviendo una lista. Maneja errores como archivos vacíos (o que no se pueden parsear) o archivos no encontrados.
     
@@ -226,10 +220,15 @@ Duplica y reordena aleatoriamente los elementos de una lista, validando que todo
 #### `llamar_vlc` :
 Ejecuta VLC con una lista de reproducción, considerando el sistema operativo y validando la existencia del ejecutable de VLC en rutas predefinidas.
 
+#### `interfaz.py` :
+Crea una interfaz gráfica con Tkinter para seleccionar y randomizar una lista de reproducción XSPF. Muestra un menú para elegir el archivo, instrucciones, y un botón para ejecutar la operación de randomización de canciones usando VLC.
+
 # **Implementación**
 ## **Tecnologías y Herramientas Elegidas**
 
 - [**Python**](https://docs.python.org/3/):
+
+    [`Tkinter`](https://docs.python.org/3/library/tkinter.html): Biblioteca estándar de Python para crear interfaces gráficas (GUI). Proporciona widgets como botones, cuadros de texto y menús para construir aplicaciones de escritorio de forma simple y nativa
 
     [`xml.etree.ElementTree`](https://docs.python.org/3/library/xml.etree.elementtree.html): Librería que permite parsear y manipular archivos XML, utilizado aquí para extraer información de un archivo XSPF.
 
@@ -273,8 +272,11 @@ En el proyecto se utilizan dos tipos de test:
 
 El módulo que llama a VLC no es posible testearlo con código, ya que la comprobación del proceso es la propia ejecución de VLC.
 
+**En la versión 2.0 del reto no se han realizado test de los módulos de interfaz añadidos. Es posible que algunos test existentes se vean afectados por el nuevo diseño de componentes, especialmente los que en la primera versión testaban la salida del programa.**
+
 ## Coverage
-Teniendo en cuenta lo anterior, podemos ver que los test planteados cubren un 100% de nuestro código (hay que tener en cuenta la exclusión del módulo 'llamar_vlc.py'.)
+Teniendo en cuenta lo anterior, podemos ver que los test planteados cubren un 100% de nuestro código (hay que tener en cuenta la exclusión del módulo 'llamar_vlc.py'.) 
+**De nuevo hay que tener en cuenta que no se han realizado los test de la versión 2.0**
 
 ![Coverage](imagenes/coverage.PNG)
 
@@ -282,7 +284,7 @@ Teniendo en cuenta lo anterior, podemos ver que los test planteados cubren un 10
 ## Clockify
 Utilizamos **Clockify**, una herramienta de seguimiento de tiempo en línea que ayuda a registrar, analizar y gestionar eficientemente el tiempo dedicado a tareas y proyectos.
 
-El tiempo total empleado es aproximadamente de unas `15 horas` 
+El tiempo total empleado es aproximadamente de unas `15 horas`. **No se tiene en cuenta el tiempo extra empleado en desarrollar para las nuevas funcionalidades de la interfaz.** 
 
 La distribución de tiempo entre las distintas partes del proyecto es la que sigue:
 ![Queso](imagenes/queso_horas.png)
